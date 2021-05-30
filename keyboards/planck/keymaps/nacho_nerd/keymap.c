@@ -109,14 +109,14 @@ PNUMS, KC_LCTL, KC_LALT, KC_LGUI, LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_LEFT, K
  * |------+------+------+------+------+------+------+------+------+------+------+------|
  * |      |  -   |  +   |  /   |  *   |      |      |   1  |   2  |   3  |      |Enter |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * |      |      |      |      |      |             |   .  |   0  |      |      |      |
+ * |      |      |      |      |      |             |   0  |   .  |      |      |      |
  * `-----------------------------------------------------------------------------------'
  */
 [_NUMBERS] = LAYOUT_planck_grid(
-    _______, _______, _______, _______, _______, _______, _______, KC_P7, KC_P8, KC_P9, _______, KC_BSPC,
-    _______, _______, _______, _______, _______, _______, _______, KC_P4, KC_P5, KC_P6, _______, _______,
-    _______, KC_PMNS, KC_PPLS, KC_PSLS, KC_PAST, _______, _______, KC_P1, KC_P2, KC_P3, _______, KC_ENT ,
-    _______, _______, _______, _______, _______, _______, _______, KC_PDOT, KC_P0, _______, _______, _______
+    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_P7, KC_P8, KC_P9, XXXXXXX, KC_BSPC,
+    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_P4, KC_P5, KC_P6, XXXXXXX, XXXXXXX,
+    XXXXXXX, KC_PMNS, KC_PPLS, KC_PSLS, KC_PAST, XXXXXXX, XXXXXXX, KC_P1, KC_P2, KC_P3, XXXXXXX, KC_ENT ,
+    _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______, _______, KC_P0, KC_PDOT, XXXXXXX, XXXXXXX, XXXXXXX
 ),
 
 /* Lower
